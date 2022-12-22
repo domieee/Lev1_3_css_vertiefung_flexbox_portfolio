@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @FONT-FACES */
+
+/* ARCHIVO REGULAR */
+
+@font-face {
+    font-family: ArchivoRegular;
+    src: url(../fonts/Archivo-Regular.ttf);
+}
+/* ARCHIVO REGULAR */
+
+@font-face {
+    font-family: ArchivoBold;
+    src: url(../fonts/Archivo-Bold.ttf);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+#nameTitle {
+    font-family: ArchivoRegular;
+    font-size: 1.5em;
+    margin: 1em auto 0 4em;
+}
+
+.header nav a {
+    font-family: ArchivoRegular;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.header nav a:hover {
+    color: lightslategray;
+}
+
+.header nav a:nth-child(2), .header nav a:nth-child(3), .header nav a:nth-child(4) {
+    padding-left: 4em;
+}
+
+.header nav a:nth-child(5) {
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 8px 13px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.header nav a:nth-child(5):hover {
+    color: white;
+}
